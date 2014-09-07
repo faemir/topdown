@@ -1,0 +1,236 @@
+Log file open, 09/07/14 17:50:14
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: ../../../../../../Users/dan/Documents/Unreal Projects/topdown/topdown.uproject
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.07-16.50.14:377][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.07-16.50.14:404][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.07-16.50.14:444][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.07-16.50.14:469][  0]LogInit: Object subsystem initialized
+[2014.09.07-16.50.14:481][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.07-16.50.14:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.07-16.50.14:493][  0]LogInit: Computer: CALAVERA
+[2014.09.07-16.50.14:493][  0]LogInit: User: dan
+[2014.09.07-16.50.14:493][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.07-16.50.14:493][  0]LogInit: High frequency timer resolution =3.222681 MHz
+[2014.09.07-16.50.14:494][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.09.07-16.50.14:494][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.07-16.50.14:494][  0]LogMemory: Process Physical Memory: 60.10 MB used, 60.10 MB peak
+[2014.09.07-16.50.14:494][  0]LogMemory: Process Virtual Memory: 36.17 MB used, 36.17 MB peak
+[2014.09.07-16.50.14:494][  0]LogMemory: Physical Memory: 4299.39 MB used, 8074.64 MB total
+[2014.09.07-16.50.14:494][  0]LogMemory: Virtual Memory: 268.74 MB used, 134217728.00 MB total
+[2014.09.07-16.50.14:521][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.09.07-16.50.14:521][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.09.07-16.50.14:605][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.09.07-16.50.14:605][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2014.09.07-16.50.14:606][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.07-16.50.14:606][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.07-16.50.14:606][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.07-16.50.14:610][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.07-16.50.14:619][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.07-16.50.14:914][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.07-16.50.16:599][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.07-16.50.17:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.07-16.50.17:084][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.07-16.50.17:185][  0]LogDerivedDataCache: Loaded boot cache 0.10s 39MB C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.07-16.50.17:185][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.07-16.50.17:185][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dan/Documents/Unreal Projects/topdown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.07-16.50.17:185][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.07-16.50.17:204][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.07-16.50.17:216][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.07-16.50.19:097][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.07-16.50.19:097][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.07-16.50.19:637][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.07-16.50.21:114][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1844_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1270_0///////STATCAT_Advanced////
+[2014.09.07-16.50.21:114][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.07-16.50.21:215][  0]SourceControl: Info Source control is disabled
+[2014.09.07-16.50.21:215][  0]SourceControl: Info Source control is disabled
+[2014.09.07-16.50.21:219][  0]SourceControl: Info Source control is disabled
+[2014.09.07-16.50.21:476][  0]BlueprintLog: New page: Editor Load
+[2014.09.07-16.50.21:578][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.07-16.50.21:578][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.07-16.50.21:796][  0]LogEngine: Initializing Engine...
+[2014.09.07-16.50.21:948][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster X-Fi Xtreme Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.07-16.50.21:964][  0]LogInit: FAudioDevice initialized.
+[2014.09.07-16.50.21:996][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.07-16.50.22:018][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.07-16.50.22:024][  0]LogInit: Texture streaming: Enabled
+[2014.09.07-16.50.22:047][  0]LogInit: Transaction tracking system initialized
+[2014.09.07-16.50.22:142][  0]LogAssetRegistry: FAssetRegistry took 0.0124 seconds to start up
+[2014.09.07-16.50.22:517][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.07-16.50.22:752][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.07-16.50.22:898][  0]LogConsoleResponse:Display: 
+[2014.09.07-16.50.23:153][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_fcc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1270_0///////STATCAT_Advanced////
+[2014.09.07-16.50.23:153][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1e90_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1270_0///////STATCAT_Advanced////
+[2014.09.07-16.50.23:153][  0]SourceControl: Info Source control is disabled
+[2014.09.07-16.50.23:154][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.07-16.50.23:157][  0]LightingResults: New page: Lighting Build
+[2014.09.07-16.50.23:166][  0]MapCheck: New page: Map Check
+[2014.09.07-16.50.23:166][  0]LightingResults: New page: Lighting Build
+[2014.09.07-16.50.23:179][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F9FAE87C0
+[2014.09.07-16.50.23:378][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.07-16.50.23:379][  0]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-16.50.23:380][  0]Cmd: MAP CHECKDEP
+[2014.09.07-16.50.23:380][  0]MapCheck: New page: testLevel - 7 Sep 2014 18:50:23
+[2014.09.07-16.50.23:422][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [42.109ms] ==========
+[2014.09.07-16.50.23:422][  0]LogFileHelpers: Loading map 'testLevel' took 0.268
+[2014.09.07-16.50.23:547][  0]LogCollectionManager: Loaded 0 collections in 0.001015 seconds
+[2014.09.07-16.50.23:671][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.07-16.50.23:722][  0]LogLoad: Full Startup: 12.30 seconds (BP compile: 0.07 seconds)
+[2014.09.07-16.50.23:739][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.07-16.50.23:847][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.09.07-16.50.23:915][  0]LogRenderer:Warning: Reallocating scene render targets to support 1072x936.
+[2014.09.07-16.50.24:019][  1]LogAssetRegistry: Asset discovery search completed in 1.8886 seconds
+[2014.09.07-16.54.19:373][810]SourceControl: Info Source control is disabled
+[2014.09.07-16.54.20:610][954]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2014.09.07-16.54.20:610][954]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2014.09.07-17.05.20:928][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:928][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:939][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:940][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.20:940][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.07-17.05.26:445][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2014.09.07-17.05.45:193][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_1) Not registered. Aborting.
+[2014.09.07-17.05.45:223][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001FADCB6B60
+[2014.09.07-17.05.45:231][900]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/testLevel' took 0.038
+[2014.09.07-17.05.45:240][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn] ([1] browsable assets)...
+[2014.09.07-17.05.45:269][900]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Blueprint_PlayerShip_DefaultPawn.Blueprint_PlayerShip_DefaultPawn]
+[2014.09.07-17.05.45:269][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn]
+[2014.09.07-17.05.45:610][900]LogSavePackage: Save=317.957001ms
+[2014.09.07-17.05.45:610][900]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn_Auto12EEDBE6044673A03F73E329992A0FEB0.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Autosaves/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn_Auto1.uasset'
+[2014.09.07-17.05.45:615][900]LogFileHelpers: Auto-saving content packages took 0.384
+[2014.09.07-17.08.03:009][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_2) Not registered. Aborting.
+[2014.09.07-17.10.09:114][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_3) Not registered. Aborting.
+[2014.09.07-17.10.09:482][222]LogSavePackage: Save=311.313782ms
+[2014.09.07-17.10.09:482][222]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn56965BC34061D748D700D998BFF573CC.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.09.07-17.10.10:053][262]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.09.07-17.10.10:118][262]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_4) Not registered. Aborting.
+[2014.09.07-17.10.10:155][262]BlueprintEditorCompileResults: Info [1198.67] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 22 ms]
+[2014.09.07-17.24.29:995][339]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.24.29:995][339]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.24.30:037][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_5) Not registered. Aborting.
+[2014.09.07-17.24.30:054][339]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2014.09.07-17.24.30:054][339]PIE: New page: SIE session: testLevel (7 Sep 2014 19:24:30)
+[2014.09.07-17.24.30:056][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001922s)
+[2014.09.07-17.24.30:057][339]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2014.09.07-17.24.30:057][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002921s)
+[2014.09.07-17.24.30:109][339]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.24.30:115][339]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.24.30:115][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.24.30
+[2014.09.07-17.24.30:116][339]LogWorld: Bringing up level for play took: 0.001114
+[2014.09.07-17.24.30:119][339]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.024
+[2014.09.07-17.24.30:311][340]LogRenderer:Warning: Reallocating scene render targets to support 1072x944.
+[2014.09.07-17.24.33:471][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F9DCDE840
+[2014.09.07-17.24.35:505][590]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.24.35:505][590]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.24.35:548][590]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2014.09.07-17.24.35:548][590]PIE: New page: PIE session: testLevel (7 Sep 2014 19:24:35)
+[2014.09.07-17.24.35:550][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001677s)
+[2014.09.07-17.24.35:551][590]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2014.09.07-17.24.35:551][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002337s)
+[2014.09.07-17.24.35:579][590]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.24.35:580][590]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.24.35:581][590]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.24.35
+[2014.09.07-17.24.35:581][590]LogWorld: Bringing up level for play took: 0.000910
+[2014.09.07-17.24.35:582][590]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.56
+[2014.09.07-17.24.39:845][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F9DCDC9A0
+[2014.09.07-17.25.09:998][294]BlueprintLog: New page: Compile NewGameMode
+[2014.09.07-17.25.10:029][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_6) Not registered. Aborting.
+[2014.09.07-17.25.10:048][294]BlueprintEditorCompileResults: Info [2098.58] Compile of NewGameMode successful! [in 0 ms]
+[2014.09.07-17.28.44:335][352]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.28.44:335][352]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.28.44:385][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001FB65D76A0
+[2014.09.07-17.28.44:387][352]LogPlayLevel: PIE:  Blueprint regeneration took 52 ms (1 blueprints)
+[2014.09.07-17.28.44:387][352]PIE: New page: PIE session: testLevel (7 Sep 2014 19:28:44)
+[2014.09.07-17.28.44:389][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002065s)
+[2014.09.07-17.28.44:390][352]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2014.09.07-17.28.44:390][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.003004s)
+[2014.09.07-17.28.44:418][352]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.28.44:419][352]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.28.44:420][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.28.44
+[2014.09.07-17.28.44:420][352]LogWorld: Bringing up level for play took: 0.000959
+[2014.09.07-17.28.44:421][352]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.277
+[2014.09.07-17.29.03:944][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F9DAD2660
+[2014.09.07-17.29.11:375][ 33]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.29.11:375][ 33]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.29.11:419][ 33]LogPlayLevel: PIE:  Blueprint regeneration took 44 ms (1 blueprints)
+[2014.09.07-17.29.11:420][ 33]PIE: New page: SIE session: testLevel (7 Sep 2014 19:29:11)
+[2014.09.07-17.29.11:422][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001929s)
+[2014.09.07-17.29.11:422][ 33]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2014.09.07-17.29.11:423][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002832s)
+[2014.09.07-17.29.11:451][ 33]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.29.11:452][ 33]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.29.11:453][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.29.11
+[2014.09.07-17.29.11:454][ 33]LogWorld: Bringing up level for play took: 0.001080
+[2014.09.07-17.29.11:454][ 33]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.689
+[2014.09.07-17.29.14:201][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001FB652E340
+[2014.09.07-17.29.14:861][219]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.29.14:861][219]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.29.14:905][219]LogPlayLevel: PIE:  Blueprint regeneration took 44 ms (1 blueprints)
+[2014.09.07-17.29.14:905][219]PIE: New page: PIE session: testLevel (7 Sep 2014 19:29:14)
+[2014.09.07-17.29.14:907][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001829s)
+[2014.09.07-17.29.14:908][219]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2014.09.07-17.29.14:908][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002580s)
+[2014.09.07-17.29.14:937][219]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.29.14:938][219]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.29.14:939][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.29.14
+[2014.09.07-17.29.14:939][219]LogWorld: Bringing up level for play took: 0.001062
+[2014.09.07-17.29.14:940][219]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.797
+[2014.09.07-17.30.39:964][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001FA2BC16C0
+[2014.09.07-17.30.47:657][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_7) Not registered. Aborting.
+[2014.09.07-17.30.53:120][461]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.30.53:149][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_8) Not registered. Aborting.
+[2014.09.07-17.30.53:149][461]LogPlayLevel: [PIE] Compiling Blueprint_PlayerShip_DefaultPawn before PIE...
+[2014.09.07-17.30.53:261][461]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.30.53:326][461]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (2 blueprints)
+[2014.09.07-17.30.53:326][461]PIE: New page: PIE session: testLevel (7 Sep 2014 19:30:53)
+[2014.09.07-17.30.53:329][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002944s)
+[2014.09.07-17.30.53:330][461]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2014.09.07-17.30.53:330][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.003839s)
+[2014.09.07-17.30.53:361][461]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.30.53:362][461]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.30.53:363][461]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.30.53
+[2014.09.07-17.30.53:363][461]LogWorld: Bringing up level for play took: 0.001245
+[2014.09.07-17.30.53:364][461]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 1.221
+[2014.09.07-17.31.24:824][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_9) Not registered. Aborting.
+[2014.09.07-17.31.24:921][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001FC19A3100
+[2014.09.07-17.32.04:170][492]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.32.04:196][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_10) Not registered. Aborting.
+[2014.09.07-17.32.04:196][492]LogPlayLevel: [PIE] Compiling Blueprint_PlayerShip_DefaultPawn before PIE...
+[2014.09.07-17.32.04:304][492]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.09.07-17.32.04:358][492]LogPlayLevel: PIE:  Blueprint regeneration took 187 ms (2 blueprints)
+[2014.09.07-17.32.04:358][492]PIE: New page: PIE session: testLevel (7 Sep 2014 19:32:04)
+[2014.09.07-17.32.04:360][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002315s)
+[2014.09.07-17.32.04:361][492]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2014.09.07-17.32.04:361][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.003222s)
+[2014.09.07-17.32.04:390][492]LogWorld: Game class is 'NewGameMode_C'
+[2014.09.07-17.32.04:391][492]LogAIModule: Creating AISystem for world testLevel
+[2014.09.07-17.32.04:392][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.09.07-18.32.04
+[2014.09.07-17.32.04:392][492]LogWorld: Bringing up level for play took: 0.001160
+[2014.09.07-17.32.04:393][492]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.25
+[2014.09.07-17.33.04:145][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_11) Not registered. Aborting.
+[2014.09.07-17.33.07:914][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001FBD50FB00
+[2014.09.07-17.33.27:275][285]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.07-17.33.27:275][285]LogPlayLevel: [PIE] Compiling t

@@ -1,0 +1,969 @@
+Log file open, 08/31/14 19:54:13
+LogInit:Display: Running engine for game: topdown
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.08.31-18.54.13:977][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.08.31-18.54.14:004][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.08.31-18.54.14:009][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.08.31-18.54.14:014][  0]LogInit: Object subsystem initialized
+[2014.08.31-18.54.14:016][  0]LogInit: Selected Device Profile: [Windows]
+[2014.08.31-18.54.14:016][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.08.31-18.54.14:019][  0]LogInit: Computer: CALAVERA
+[2014.08.31-18.54.14:020][  0]LogInit: User: dan
+[2014.08.31-18.54.14:020][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.08.31-18.54.14:021][  0]LogInit: High frequency timer resolution =3.222677 MHz
+[2014.08.31-18.54.14:021][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.08.31-18.54.14:021][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.31-18.54.14:021][  0]LogMemory: Process Physical Memory: 59.99 MB used, 60.10 MB peak
+[2014.08.31-18.54.14:021][  0]LogMemory: Process Virtual Memory: 36.05 MB used, 36.17 MB peak
+[2014.08.31-18.54.14:021][  0]LogMemory: Physical Memory: 3755.84 MB used, 8074.64 MB total
+[2014.08.31-18.54.14:021][  0]LogMemory: Virtual Memory: 268.74 MB used, 134217728.00 MB total
+[2014.08.31-18.54.14:041][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.08.31-18.54.14:041][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.08.31-18.54.14:044][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.08.31-18.54.14:044][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2014.08.31-18.54.14:045][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.08.31-18.54.14:045][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.08.31-18.54.14:045][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.08.31-18.54.14:048][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.08.31-18.54.14:057][  0]LogD3D11RHI: Async texture creation enabled
+[2014.08.31-18.54.14:152][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.08.31-18.54.15:257][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.31-18.54.15:558][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.31-18.54.15:585][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.08.31-18.54.15:623][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.31-18.54.15:623][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.08.31-18.54.15:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dan/Documents/Unreal Projects/topdown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.08.31-18.54.15:623][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.08.31-18.54.15:637][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.08.31-18.54.15:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.08.31-18.54.15:772][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.08.31-18.54.15:772][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.08.31-18.54.16:026][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.08.31-18.54.16:570][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_4a8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1bc0_0///////STATCAT_Advanced////
+[2014.08.31-18.54.16:570][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.08.31-18.54.16:657][  0]SourceControl: Info Source control is disabled
+[2014.08.31-18.54.16:658][  0]SourceControl: Info Source control is disabled
+[2014.08.31-18.54.16:661][  0]SourceControl: Info Source control is disabled
+[2014.08.31-18.54.16:778][  0]BlueprintLog: New page: Editor Load
+[2014.08.31-18.54.16:839][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.08.31-18.54.16:839][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.08.31-18.54.17:010][  0]LogEngine: Initializing Engine...
+[2014.08.31-18.54.17:100][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster X-Fi Xtreme Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.08.31-18.54.17:114][  0]LogInit: FAudioDevice initialized.
+[2014.08.31-18.54.17:125][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.08.31-18.54.17:143][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.31-18.54.17:149][  0]LogInit: Texture streaming: Enabled
+[2014.08.31-18.54.17:171][  0]LogInit: Transaction tracking system initialized
+[2014.08.31-18.54.17:246][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2014.08.31-18.54.17:578][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.31-18.54.17:825][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.31-18.54.17:906][  0]LogConsoleResponse:Display: 
+[2014.08.31-18.54.18:018][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1854_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1bc0_0///////STATCAT_Advanced////
+[2014.08.31-18.54.18:018][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_22a8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1bc0_0///////STATCAT_Advanced////
+[2014.08.31-18.54.18:018][  0]SourceControl: Info Source control is disabled
+[2014.08.31-18.54.18:018][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.08.31-18.54.18:018][  0]LightingResults: New page: Lighting Build
+[2014.08.31-18.54.18:023][  0]MapCheck: New page: Map Check
+[2014.08.31-18.54.18:023][  0]LightingResults: New page: Lighting Build
+[2014.08.31-18.54.18:034][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D4F087C0
+[2014.08.31-18.54.18:218][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.08.31-18.54.18:218][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.08.31-18.54.18:218][  0]Cmd: MAP CHECKDEP
+[2014.08.31-18.54.18:219][  0]MapCheck: New page: Minimal_Default - 31 Aug 2014 20:54:18
+[2014.08.31-18.54.18:264][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [45.171ms] ==========
+[2014.08.31-18.54.18:264][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.246
+[2014.08.31-18.54.18:350][  0]LogCollectionManager: Loaded 0 collections in 0.000888 seconds
+[2014.08.31-18.54.18:409][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.08.31-18.54.18:443][  0]LogLoad: Full Startup: 6.04 seconds (BP compile: 0.05 seconds)
+[2014.08.31-18.54.18:458][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.08.31-18.54.18:537][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.08.31-18.54.18:591][  0]LogRenderer:Warning: Reallocating scene render targets to support 1096x936.
+[2014.08.31-18.54.18:673][  1]LogAssetRegistry: Asset discovery search completed in 1.4377 seconds
+[2014.08.31-18.55.13:311][863]Cmd: MAP LOAD FILE="C:/Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.08.31-18.55.13:311][863]LightingResults: New page: Lighting Build
+[2014.08.31-18.55.13:322][863]LoadErrors: New page: Loading map: testLevel.umap
+[2014.08.31-18.55.13:323][863]MapCheck: New page: Map Check
+[2014.08.31-18.55.13:323][863]LightingResults: New page: Lighting Build
+[2014.08.31-18.55.13:338][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D51982C0
+[2014.08.31-18.55.13:393][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.08.31-18.55.13:393][863]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-18.55.13:406][863]Cmd: MAP CHECKDEP
+[2014.08.31-18.55.13:406][863]MapCheck: New page: testLevel - 31 Aug 2014 20:55:13
+[2014.08.31-18.55.13:453][863]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [47.018ms] ==========
+[2014.08.31-18.55.13:453][863]LogFileHelpers: Loading map 'testLevel' took 0.143
+[2014.08.31-19.05.13:412][336]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/testLevel' took 0.025
+[2014.08.31-19.05.13:421][336]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Blueprint_Player_Ship] ([1] browsable assets)...
+[2014.08.31-19.05.13:466][336]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship]
+[2014.08.31-19.05.13:466][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blueprint_Player_Ship]
+[2014.08.31-19.05.13:908][336]LogSavePackage: Save=411.194183ms
+[2014.08.31-19.05.13:908][336]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Player_Ship_Auto165B44D6B4BDD588411A44193326A171B.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Autosaves/Game/Blueprints/Blueprint_Player_Ship_Auto1.uasset'
+[2014.08.31-19.05.13:923][336]LogFileHelpers: Auto-saving content packages took 0.511
+[2014.08.31-19.40.40:387][929]BlueprintLog: New page: Compile Blueprint_Player_Ship
+[2014.08.31-19.40.40:450][929]BlueprintEditorCompileResults: Info [2787.99] Compile of Blueprint_Player_Ship successful! [in 1 ms]
+[2014.08.31-19.40.40:939][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Player_Ship" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Player_Ship.uasset" SILENT=true
+[2014.08.31-19.40.41:319][970]LogSavePackage: Save=368.840240ms
+[2014.08.31-19.40.41:319][970]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Player_ShipAE1DE0D04B8D66D766FC13B099233F70.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Player_Ship.uasset'
+[2014.08.31-19.40.43:269][168]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.40.43:269][168]PIE: New page: PIE session: testLevel (31 Aug 2014 21:40:43)
+[2014.08.31-19.40.43:272][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003227s)
+[2014.08.31-19.40.43:273][168]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2014.08.31-19.40.43:274][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.004523s)
+[2014.08.31-19.40.43:313][168]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.40.43:314][168]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.40.43:316][168]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.40.43
+[2014.08.31-19.40.43:316][168]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.40.43:316][168]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.40.43:316][168]LogWorld: Bringing up level for play took: 0.001636
+[2014.08.31-19.40.43:317][168]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.826
+[2014.08.31-19.40.43:317][168]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.40.43:318][168]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.40.43:318][168]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.40.43:375][169]LogRenderer:Warning: Reallocating scene render targets to support 1096x944.
+[2014.08.31-19.40.45:380][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CEE234C0
+[2014.08.31-19.40.45:391][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CEE57880
+[2014.08.31-19.40.55:461][168]LogSavePackage: Save=46.265884ms
+[2014.08.31-19.40.55:461][168]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel_Auto23988B11A4C80C9DBA8C70385A31C19E3.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Autosaves/Game/Maps/testLevel_Auto2.umap'
+[2014.08.31-19.40.55:469][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/testLevel' took 0.103
+[2014.08.31-19.40.55:469][168]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.103
+[2014.08.31-19.43.22:767][983]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.08.31-19.43.39:491][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2014.08.31-19.43.39:505][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DBEBF380
+[2014.08.31-19.43.39:507][512]LogMetaData: Removing '/Game/Blueprints/Blueprint_PlayerShip.SKEL_Blueprint_PlayerShip_C' ref from Metadata '/Game/Blueprints/Blueprint_2.PackageMetaData'
+[2014.08.31-19.43.39:507][512]LogMetaData: Removing '/Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip_C' ref from Metadata '/Game/Blueprints/Blueprint_2.PackageMetaData'
+[2014.08.31-19.43.39:549][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_PlayerShip" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip.uasset" SILENT=true
+[2014.08.31-19.43.39:807][512]LogSavePackage: Save=255.940948ms
+[2014.08.31-19.43.39:807][512]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip134B64554017D5C1B8E6B39123E025CF.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip.uasset'
+[2014.08.31-19.43.39:828][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_1) Not registered. Aborting.
+[2014.08.31-19.43.51:022][363]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.08.31-19.43.54:571][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_2) Not registered. Aborting.
+[2014.08.31-19.44.14:336][219]LogActorFactory: Actor Factory created Player
+[2014.08.31-19.44.25:801][213]BlueprintLog: New page: Compile Blueprint_PlayerShip
+[2014.08.31-19.44.25:893][213]BlueprintEditorCompileResults: Info [3013.42] Compile of Blueprint_PlayerShip successful! [in 17 ms]
+[2014.08.31-19.44.26:632][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_PlayerShip" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip.uasset" SILENT=true
+[2014.08.31-19.44.26:936][276]LogSavePackage: Save=295.463043ms
+[2014.08.31-19.44.26:936][276]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShipA46F9B504283968E15098BB4B2D8CB37.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip.uasset'
+[2014.08.31-19.44.33:905][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.08.31-19.44.39:402][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-19.44.39:403][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_InputAxisEvent_2 or K2Node_InputAxisEvent /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_2
+[2014.08.31-19.44.39:403][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_2.EdGraphPin_2481) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128634.EdGraphPin_2557).  Import failed...
+[2014.08.31-19.44.39:403][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputAxisEvent_2.EdGraphPin_2481"''
+[2014.08.31-19.44.39:403][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128107 or K2Node_CallFunction /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_128107
+[2014.08.31-19.44.39:403][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_128107.EdGraphPin_2540) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128634.EdGraphPin_2556).  Import failed...
+[2014.08.31-19.44.39:403][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_128107.EdGraphPin_2540"''
+[2014.08.31-19.44.39:403][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_InputAxisEvent_2 or K2Node_InputAxisEvent /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_2
+[2014.08.31-19.44.39:403][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_2.EdGraphPin_2480) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128634.EdGraphPin_2553).  Import failed...
+[2014.08.31-19.44.39:403][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputAxisEvent_2.EdGraphPin_2480"''
+[2014.08.31-19.44.39:404][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128633 or K2Node_CallFunction /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_128633
+[2014.08.31-19.44.39:404][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_128633.EdGraphPin_2512) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_126976.EdGraphPin_2548).  Import failed...
+[2014.08.31-19.44.39:404][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_128633.EdGraphPin_2512"''
+[2014.08.31-19.44.39:404][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128107 or K2Node_CallFunction /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_128107
+[2014.08.31-19.44.39:404][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_128107.EdGraphPin_2539) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_126976.EdGraphPin_2548).  Import failed...
+[2014.08.31-19.44.39:404][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_128107.EdGraphPin_2539"''
+[2014.08.31-19.44.39:404][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_126450 or K2Node_CallFunction /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_126450
+[2014.08.31-19.44.39:404][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_CallFunction_126450.EdGraphPin_2523) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_128633.EdGraphPin_2513).  Import failed...
+[2014.08.31-19.44.39:404][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_126450.EdGraphPin_2523"''
+[2014.08.31-19.44.39:405][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_InputAxisEvent_6 or K2Node_InputAxisEvent /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_6
+[2014.08.31-19.44.39:405][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_6.EdGraphPin_2472) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_126450.EdGraphPin_2524).  Import failed...
+[2014.08.31-19.44.39:405][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputAxisEvent_6.EdGraphPin_2472"''
+[2014.08.31-19.44.39:405][344]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_InputAxisEvent_6 or K2Node_InputAxisEvent /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_6
+[2014.08.31-19.44.39:405][344]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Blueprint_Player_Ship.Blueprint_Player_Ship:EventGraph.K2Node_InputAxisEvent_6.EdGraphPin_2471) from referencer (EdGraphPin /Game/Blueprints/Blueprint_PlayerShip.Blueprint_PlayerShip:EventGraph.K2Node_CallFunction_126450.EdGraphPin_2520).  Import failed...
+[2014.08.31-19.44.39:405][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputAxisEvent_6.EdGraphPin_2471"''
+[2014.08.31-19.44.39:427][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_3) Not registered. Aborting.
+[2014.08.31-19.44.41:216][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_4) Not registered. Aborting.
+[2014.08.31-19.44.41:298][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-19.44.41:350][528]LogSavePackage: Save=30.614611ms
+[2014.08.31-19.44.41:350][528]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel415D1D7744EE7622EF18248D0F8544B5.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-19.44.41:367][528]LogFileHelpers: Saving map 'testLevel' took 0.115
+[2014.08.31-19.44.41:369][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_2" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_2.uasset" SILENT=true
+[2014.08.31-19.44.41:375][528]LogSavePackage: Save=4.707267ms
+[2014.08.31-19.44.41:375][528]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_25B24404149080B8FC6BE29994654DE89.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_2.uasset'
+[2014.08.31-19.44.41:393][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_PlayerShip" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip.uasset" SILENT=true
+[2014.08.31-19.44.41:697][528]LogSavePackage: Save=298.666901ms
+[2014.08.31-19.44.41:697][528]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip4643113740129745DBED629474DE59AD.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip.uasset'
+[2014.08.31-19.44.42:088][552]BlueprintLog: New page: Compile Blueprint_PlayerShip
+[2014.08.31-19.44.42:147][552]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_5) Not registered. Aborting.
+[2014.08.31-19.44.42:183][552]BlueprintEditorCompileResults: Info [3029.71] Compile of Blueprint_PlayerShip successful! [in 18 ms]
+[2014.08.31-19.44.47:131][985]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-19.45.00:051][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_6) Not registered. Aborting.
+[2014.08.31-19.45.00:088][ 71]LogMetaData: Removing '/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn.Blueprint_PlayerShip_DefaultPawn_C' ref from Metadata '/Game/Blueprints/Blueprint_PlayerShip.PackageMetaData'
+[2014.08.31-19.45.00:088][ 71]LogMetaData: Removing '/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn.SKEL_Blueprint_PlayerShip_DefaultPawn_C' ref from Metadata '/Game/Blueprints/Blueprint_PlayerShip.PackageMetaData'
+[2014.08.31-19.45.00:431][ 71]LogSavePackage: Save=295.482605ms
+[2014.08.31-19.45.00:431][ 71]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawnF11BFAD74DAB0CFFAC8DD38E9FB61EDB.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.45.00:453][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_7) Not registered. Aborting.
+[2014.08.31-19.45.02:354][237]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-19.45.14:816][679]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-19.45.14:849][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_8) Not registered. Aborting.
+[2014.08.31-19.45.14:870][679]BlueprintEditorCompileResults: Info [3062.41] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-19.45.15:319][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-19.45.15:340][729]LogSavePackage: Save=12.033164ms
+[2014.08.31-19.45.15:340][729]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Game25D5798643C40FE3B3C4B384C971A3FC.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-19.45.18:012][ 25]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.45.18:012][ 25]PIE: New page: PIE session: testLevel (31 Aug 2014 21:45:18)
+[2014.08.31-19.45.18:014][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001666s)
+[2014.08.31-19.45.18:015][ 25]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2014.08.31-19.45.18:015][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002406s)
+[2014.08.31-19.45.18:047][ 25]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.45.18:048][ 25]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.45.18:049][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.45.18
+[2014.08.31-19.45.18:050][ 25]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.45.18:050][ 25]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.45.18:050][ 25]LogWorld: Bringing up level for play took: 0.001324
+[2014.08.31-19.45.18:050][ 25]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.092
+[2014.08.31-19.45.18:051][ 25]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.45.18:051][ 25]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.45.18:051][ 25]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2014.08.31-19.45.21:219][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E550B6A0
+[2014.08.31-19.45.21:219][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DC40B6A0
+[2014.08.31-19.45.21:219][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D91FF420
+[2014.08.31-19.45.21:230][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D9012CA0
+[2014.08.31-19.45.22:065][484]LogEditorViewport: Clicking on Actor (LMB): Blueprint_Player_Ship_C (Blueprint_Player_Ship)
+[2014.08.31-19.45.22:208][494]Cmd: DELETE
+[2014.08.31-19.45.22:208][494]Cmd: ACTOR DELETE
+[2014.08.31-19.45.22:208][494]LogEditorActor: Deleted Actor: Blueprint_Player_Ship_C
+[2014.08.31-19.45.22:256][494]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2014.08.31-19.45.31:215][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_13)
+[2014.08.31-19.45.32:553][678]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.45.32:554][678]PIE: New page: PIE session: testLevel (31 Aug 2014 21:45:32)
+[2014.08.31-19.45.32:555][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001537s)
+[2014.08.31-19.45.32:556][678]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2014.08.31-19.45.32:556][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002451s)
+[2014.08.31-19.45.32:586][678]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.45.32:587][678]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.45.32:588][678]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.45.32
+[2014.08.31-19.45.32:589][678]LogWorld: Bringing up level for play took: 0.001033
+[2014.08.31-19.45.32:589][678]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.446
+[2014.08.31-19.45.36:213][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_9) Not registered. Aborting.
+[2014.08.31-19.45.36:225][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CEE6FCE0
+[2014.08.31-19.45.39:041][412]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.45.39:041][412]PIE: New page: PIE session: testLevel (31 Aug 2014 21:45:39)
+[2014.08.31-19.45.39:043][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001655s)
+[2014.08.31-19.45.39:044][412]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2014.08.31-19.45.39:044][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002528s)
+[2014.08.31-19.45.39:070][412]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.45.39:071][412]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.45.39:072][412]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.45.39
+[2014.08.31-19.45.39:073][412]LogWorld: Bringing up level for play took: 0.001022
+[2014.08.31-19.45.39:073][412]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.93
+[2014.08.31-19.45.40:741][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CEE6F4C0
+[2014.08.31-19.45.40:948][618]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.45.40:948][618]PIE: New page: PIE session: testLevel (31 Aug 2014 21:45:40)
+[2014.08.31-19.45.40:950][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001819s)
+[2014.08.31-19.45.40:951][618]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2014.08.31-19.45.40:951][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002937s)
+[2014.08.31-19.45.41:001][618]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.45.41:002][618]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.45.41:003][618]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.45.41
+[2014.08.31-19.45.41:003][618]LogWorld: Bringing up level for play took: 0.000997
+[2014.08.31-19.45.41:004][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.861
+[2014.08.31-19.45.41:786][695]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CEE6D4E0
+[2014.08.31-19.45.46:635][ 68]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-19.45.49:635][363]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-19.45.49:671][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_10) Not registered. Aborting.
+[2014.08.31-19.45.49:695][363]BlueprintEditorCompileResults: Info [3097.23] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-19.45.50:068][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-19.45.50:087][397]LogSavePackage: Save=12.687899ms
+[2014.08.31-19.45.50:087][397]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_GameE28A2E0441A9D5BCF421FBB5EDCCE3DC.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-19.45.51:601][547]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.45.51:601][547]PIE: New page: PIE session: testLevel (31 Aug 2014 21:45:51)
+[2014.08.31-19.45.51:603][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001614s)
+[2014.08.31-19.45.51:603][547]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2014.08.31-19.45.51:604][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002391s)
+[2014.08.31-19.45.51:629][547]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.45.51:630][547]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.45.51:631][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.45.51
+[2014.08.31-19.45.51:631][547]LogWorld: Bringing up level for play took: 0.001013
+[2014.08.31-19.45.51:632][547]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.511
+[2014.08.31-19.45.54:392][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D5DE36A0
+[2014.08.31-19.45.54:392][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DC48B560
+[2014.08.31-19.45.54:411][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E5A44220
+[2014.08.31-19.47.24:935][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_11) Not registered. Aborting.
+[2014.08.31-19.47.25:013][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-19.47.25:066][914]LogSavePackage: Save=31.637362ms
+[2014.08.31-19.47.25:066][914]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel1276C65C49129863B0417BB7D62F6E58.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-19.47.25:086][914]LogFileHelpers: Saving map 'testLevel' took 0.119
+[2014.08.31-19.47.39:866][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_12) Not registered. Aborting.
+[2014.08.31-19.47.41:738][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_13) Not registered. Aborting.
+[2014.08.31-19.47.45:944][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_14) Not registered. Aborting.
+[2014.08.31-19.47.52:093][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_15) Not registered. Aborting.
+[2014.08.31-19.47.53:124][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_16) Not registered. Aborting.
+[2014.08.31-19.48.10:443][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_17) Not registered. Aborting.
+[2014.08.31-19.48.10:529][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-19.48.10:583][773]LogSavePackage: Save=33.083366ms
+[2014.08.31-19.48.10:583][773]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel3A1219D64E1D77D3890102A8CCA2701D.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-19.48.10:601][773]LogFileHelpers: Saving map 'testLevel' took 0.119
+[2014.08.31-19.48.10:918][773]LogSavePackage: Save=294.341309ms
+[2014.08.31-19.48.10:918][773]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn53B800444CD62F0916C560A9B23FB66C.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.48.12:155][871]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-19.48.12:215][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_18) Not registered. Aborting.
+[2014.08.31-19.48.12:256][871]BlueprintEditorCompileResults: Info [3239.78] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 18 ms]
+[2014.08.31-19.48.13:480][938]LogSavePackage: Save=294.646973ms
+[2014.08.31-19.48.13:480][938]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn20FF81284CBE9AA4C7D6F5A0CA32DDED.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.48.14:656][ 40]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.48.14:656][ 40]PIE: New page: PIE session: testLevel (31 Aug 2014 21:48:14)
+[2014.08.31-19.48.14:658][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001797s)
+[2014.08.31-19.48.14:658][ 40]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2014.08.31-19.48.14:658][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002679s)
+[2014.08.31-19.48.14:685][ 40]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.48.14:687][ 40]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.48.14:687][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.48.14
+[2014.08.31-19.48.14:688][ 40]LogWorld: Bringing up level for play took: 0.001171
+[2014.08.31-19.48.14:688][ 40]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.545
+[2014.08.31-19.48.20:326][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_19) Not registered. Aborting.
+[2014.08.31-19.48.20:338][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E7287560
+[2014.08.31-19.48.20:339][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D8FE9E40
+[2014.08.31-19.48.31:321][583]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-19.48.40:901][581]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-19.48.40:937][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_20) Not registered. Aborting.
+[2014.08.31-19.48.40:955][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E9CDB420
+[2014.08.31-19.48.40:961][581]BlueprintEditorCompileResults: Info [3268.50] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-19.48.41:217][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-19.48.41:235][604]LogSavePackage: Save=11.891666ms
+[2014.08.31-19.48.41:235][604]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Game1CF1D76A4834089EBE035F8E12ABD11B.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-19.48.52:976][862]LogRenderer:Warning: Reallocating scene render targets to support 1336x944.
+[2014.08.31-19.48.59:283][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_21) Not registered. Aborting.
+[2014.08.31-19.48.59:300][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D7B5F600
+[2014.08.31-19.48.59:300][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E7D8B6A0
+[2014.08.31-19.48.59:361][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-19.48.59:416][566]LogSavePackage: Save=34.457687ms
+[2014.08.31-19.48.59:416][566]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevelFC7E0BC042F002C9D8E14DA8C93C90AB.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-19.48.59:433][566]LogFileHelpers: Saving map 'testLevel' took 0.119
+[2014.08.31-19.48.59:458][566]LogSavePackage: Save=16.302286ms
+[2014.08.31-19.48.59:458][566]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn2F20E49444E916C854AAC8978B373CE8.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.49.02:534][837]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-19.49.15:539][180]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-19.49.15:568][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_22) Not registered. Aborting.
+[2014.08.31-19.49.15:586][180]BlueprintEditorCompileResults: Info [3303.14] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-19.49.15:915][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-19.49.15:934][210]LogSavePackage: Save=12.081261ms
+[2014.08.31-19.49.15:934][210]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Game986352EB45D6BDAD189FFB9A81BFED8B.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-19.49.18:972][537]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.49.18:972][537]PIE: New page: PIE session: testLevel (31 Aug 2014 21:49:18)
+[2014.08.31-19.49.18:974][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001739s)
+[2014.08.31-19.49.18:974][537]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2014.08.31-19.49.18:974][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002557s)
+[2014.08.31-19.49.19:005][537]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.49.19:007][537]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.49.19:007][537]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.49.19
+[2014.08.31-19.49.19:008][537]LogWorld: Bringing up level for play took: 0.001156
+[2014.08.31-19.49.19:008][537]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.865
+[2014.08.31-19.49.21:826][859]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DC603600
+[2014.08.31-19.49.21:847][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D7B5DC60
+[2014.08.31-19.49.26:555][145]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.49.26:555][145]PIE: New page: PIE session: testLevel (31 Aug 2014 21:49:26)
+[2014.08.31-19.49.26:557][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001689s)
+[2014.08.31-19.49.26:558][145]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2014.08.31-19.49.26:558][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002440s)
+[2014.08.31-19.49.26:589][145]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.49.26:591][145]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.49.26:592][145]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.49.26
+[2014.08.31-19.49.26:592][145]LogWorld: Bringing up level for play took: 0.001188
+[2014.08.31-19.49.26:593][145]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.449
+[2014.08.31-19.49.42:138][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_23) Not registered. Aborting.
+[2014.08.31-19.49.42:154][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E68D27A0
+[2014.08.31-19.49.50:633][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:633][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:633][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:633][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:633][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.50:634][204]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-19.49.57:885][753]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-19.49.57:940][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_24) Not registered. Aborting.
+[2014.08.31-19.49.57:975][753]BlueprintEditorCompileResults: Info [3345.50] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 18 ms]
+[2014.08.31-19.49.59:677][818]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.49.59:677][818]PIE: New page: SIE session: testLevel (31 Aug 2014 21:49:59)
+[2014.08.31-19.49.59:679][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001522s)
+[2014.08.31-19.49.59:679][818]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2014.08.31-19.49.59:679][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002444s)
+[2014.08.31-19.49.59:680][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_23"
+[2014.08.31-19.49.59:680][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_24"
+[2014.08.31-19.49.59:680][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_15"
+[2014.08.31-19.49.59:680][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_16"
+[2014.08.31-19.49.59:713][818]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.49.59:713][818]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.49.59:714][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.49.59
+[2014.08.31-19.49.59:715][818]LogWorld: Bringing up level for play took: 0.001189
+[2014.08.31-19.49.59:715][818]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.08.31-19.49.59:715][818]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.428
+[2014.08.31-19.49.59:728][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_23"
+[2014.08.31-19.49.59:728][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_24"
+[2014.08.31-19.49.59:728][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_15"
+[2014.08.31-19.49.59:728][818]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.SM_Template_Map_Floor_16"
+[2014.08.31-19.50.13:265][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_25) Not registered. Aborting.
+[2014.08.31-19.50.13:279][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D9011EE0
+[2014.08.31-19.50.49:585][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_26) Not registered. Aborting.
+[2014.08.31-19.50.49:658][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-19.50.49:711][525]LogSavePackage: Save=31.731384ms
+[2014.08.31-19.50.49:711][525]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel14AC6F18447A29DA1E866980665895B6.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-19.50.49:727][525]LogFileHelpers: Saving map 'testLevel' took 0.116
+[2014.08.31-19.50.50:044][525]LogSavePackage: Save=295.838531ms
+[2014.08.31-19.50.50:044][525]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawnEC8E068D4686ED2943E16B891E20A190.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.50.57:081][ 67]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-19.50.57:141][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_27) Not registered. Aborting.
+[2014.08.31-19.50.57:177][ 67]BlueprintEditorCompileResults: Info [3404.70] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 18 ms]
+[2014.08.31-19.50.58:033][ 95]LogSavePackage: Save=300.479370ms
+[2014.08.31-19.50.58:033][ 95]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawnD6645B6A428010F1D3E6CD9740CE2745.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.54.22:968][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_15)
+[2014.08.31-19.54.57:205][460]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-19.55.00:834][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_28) Not registered. Aborting.
+[2014.08.31-19.55.04:297][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_29) Not registered. Aborting.
+[2014.08.31-19.55.05:624][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_30) Not registered. Aborting.
+[2014.08.31-19.55.08:393][527]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-19.55.08:461][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_31) Not registered. Aborting.
+[2014.08.31-19.55.08:479][527]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DDA37420
+[2014.08.31-19.55.08:500][527]BlueprintEditorCompileResults: Info [3656.01] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 18 ms]
+[2014.08.31-19.55.09:205][558]LogSavePackage: Save=298.845337ms
+[2014.08.31-19.55.09:205][558]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn822133F645671F12E994C0A7A007CB43.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-19.55.10:971][719]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.55.10:971][719]PIE: New page: PIE session: testLevel (31 Aug 2014 21:55:10)
+[2014.08.31-19.55.10:973][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002033s)
+[2014.08.31-19.55.10:974][719]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2014.08.31-19.55.10:974][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002821s)
+[2014.08.31-19.55.11:001][719]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.55.11:003][719]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.55.11:004][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.55.11
+[2014.08.31-19.55.11:004][719]LogWorld: Bringing up level for play took: 0.001171
+[2014.08.31-19.55.11:005][719]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.862
+[2014.08.31-19.55.14:038][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_32) Not registered. Aborting.
+[2014.08.31-19.55.14:051][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E36AB420
+[2014.08.31-19.55.14:052][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E74C3740
+[2014.08.31-19.55.30:218][610]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-19.55.30:218][610]PIE: New page: PIE session: testLevel (31 Aug 2014 21:55:30)
+[2014.08.31-19.55.30:220][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001816s)
+[2014.08.31-19.55.30:221][610]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2014.08.31-19.55.30:221][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002640s)
+[2014.08.31-19.55.30:253][610]LogWorld: Game class is 'GameMode'
+[2014.08.31-19.55.30:255][610]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-19.55.30:256][610]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-20.55.30
+[2014.08.31-19.55.30:256][610]LogWorld: Bringing up level for play took: 0.001161
+[2014.08.31-19.55.30:257][610]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.114
+[2014.08.31-19.55.41:511][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_33) Not registered. Aborting.
+[2014.08.31-19.55.41:528][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DA8B89A0
+[2014.08.31-20.01.03:949][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_34) Not registered. Aborting.
+[2014.08.31-20.01.03:963][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038EBA73420
+[2014.08.31-20.01.04:041][815]LogSavePackage: Save=42.540409ms
+[2014.08.31-20.01.04:041][815]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel_Auto39BB4678248DA84F42A1C47993042A1BC.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Autosaves/Game/Maps/testLevel_Auto3.umap'
+[2014.08.31-20.01.04:049][815]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/testLevel' took 0.100
+[2014.08.31-20.01.04:049][815]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2014.08.31-20.01.04:057][815]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn] ([1] browsable assets)...
+[2014.08.31-20.01.04:070][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn]
+[2014.08.31-20.01.04:109][815]LogSavePackage: Save=23.139458ms
+[2014.08.31-20.01.04:109][815]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn_Auto338FCA7964F45A9D3C32827ABFE22DB2F.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Autosaves/Game/Blueprints/Blueprint_PlayerShip_DefaultPawn_Auto3.uasset'
+[2014.08.31-20.01.04:116][815]LogFileHelpers: Auto-saving content packages took 0.067
+[2014.08.31-20.06.24:736][153]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_35) Not registered. Aborting.
+[2014.08.31-20.06.24:753][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038EBCE7420
+[2014.08.31-20.06.35:431][921]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-20.06.35:453][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_36) Not registered. Aborting.
+[2014.08.31-20.07.58:622][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_37) Not registered. Aborting.
+[2014.08.31-20.09.23:861][ 69]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.23:861][ 69]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.23:861][ 69]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.23:861][ 69]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.23:861][ 69]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.23:861][ 69]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.37:563][108]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.37:563][108]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.09.37:563][108]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.10.10:717][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-20.10.13:283][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.08.31-20.10.31:197][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_38) Not registered. Aborting.
+[2014.08.31-20.10.31:292][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-20.10.31:354][112]LogSavePackage: Save=34.394386ms
+[2014.08.31-20.10.31:354][112]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevelF011D098474938F8E9D78F844EC0EDAB.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-20.10.31:379][112]LogFileHelpers: Saving map 'testLevel' took 0.135
+[2014.08.31-20.10.31:706][112]LogSavePackage: Save=302.020020ms
+[2014.08.31-20.10.31:706][112]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn8B9E24A1405162280028BFBCCA4AB71B.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-20.10.32:083][130]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-20.10.32:145][130]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_39) Not registered. Aborting.
+[2014.08.31-20.10.32:181][130]BlueprintEditorCompileResults: Info [4579.70] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 18 ms]
+[2014.08.31-20.10.33:078][160]LogSavePackage: Save=297.715210ms
+[2014.08.31-20.10.33:078][160]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawnB3CD85894A9B9476CDFB66B026896803.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-20.10.35:786][366]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-20.10.35:786][366]PIE: New page: PIE session: testLevel (31 Aug 2014 22:10:35)
+[2014.08.31-20.10.35:788][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001614s)
+[2014.08.31-20.10.35:789][366]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2014.08.31-20.10.35:789][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002712s)
+[2014.08.31-20.10.35:820][366]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.10.35:821][366]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.10.35:822][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.10.35
+[2014.08.31-20.10.35:822][366]LogWorld: Bringing up level for play took: 0.001192
+[2014.08.31-20.10.35:823][366]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.32
+[2014.08.31-20.10.44:698][347]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_40) Not registered. Aborting.
+[2014.08.31-20.10.44:712][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D9011A80
+[2014.08.31-20.11.22:473][881]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.08.31-20.11.22:473][881]PIE: New page: PIE session: testLevel (31 Aug 2014 22:11:22)
+[2014.08.31-20.11.22:475][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001892s)
+[2014.08.31-20.11.22:476][881]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2014.08.31-20.11.22:476][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002754s)
+[2014.08.31-20.11.22:531][881]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.11.22:533][881]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.11.22:534][881]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.11.22
+[2014.08.31-20.11.22:534][881]LogWorld: Bringing up level for play took: 0.001204
+[2014.08.31-20.11.22:535][881]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.392
+[2014.08.31-20.11.23:613][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_41) Not registered. Aborting.
+[2014.08.31-20.11.23:629][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D5DE0EA0
+[2014.08.31-20.11.30:212][461]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor18)
+[2014.08.31-20.11.45:724][589]LogEditorViewport: Clicking on Actor (LMB): Blueprint_PlayerShip_DefaultPawn_C (Blueprint_PlayerShip_DefaultPawn)
+[2014.08.31-20.11.51:053][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_42) Not registered. Aborting.
+[2014.08.31-20.11.54:550][190]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-20.11.54:672][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_43) Not registered. Aborting.
+[2014.08.31-20.11.54:705][190]BlueprintEditorCompileResults: Info [4662.17] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 18 ms]
+[2014.08.31-20.11.55:337][214]LogSavePackage: Save=300.961273ms
+[2014.08.31-20.11.55:337][214]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn98053C5B4C0010428DD162999A0BD745.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-20.11.56:755][298]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.08.31-20.11.57:420][360]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.08.31-20.12.06:684][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_44) Not registered. Aborting.
+[2014.08.31-20.12.10:638][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_45) Not registered. Aborting.
+[2014.08.31-20.12.12:630][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_46) Not registered. Aborting.
+[2014.08.31-20.12.13:748][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_47) Not registered. Aborting.
+[2014.08.31-20.12.13:822][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-20.12.13:876][647]LogSavePackage: Save=31.305962ms
+[2014.08.31-20.12.13:876][647]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel52072498423248FF4B4DC3B47B5E3FE8.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-20.12.13:896][647]LogFileHelpers: Saving map 'testLevel' took 0.121
+[2014.08.31-20.12.14:219][647]LogSavePackage: Save=301.332092ms
+[2014.08.31-20.12.14:219][647]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn2ACB370F40D87339C13365A01E649CF5.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-20.12.15:189][727]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-20.12.15:264][727]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_48) Not registered. Aborting.
+[2014.08.31-20.12.15:297][727]BlueprintEditorCompileResults: Info [4682.82] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 30 ms]
+[2014.08.31-20.12.16:068][764]LogSavePackage: Save=306.313049ms
+[2014.08.31-20.12.16:068][764]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawn44CC0F804CBF19354EEB35B0F2D2BEAF.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-20.14.15:614][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.08.31-20.14.28:061][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_49) Not registered. Aborting.
+[2014.08.31-20.14.28:154][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-20.14.28:219][626]LogSavePackage: Save=39.245945ms
+[2014.08.31-20.14.28:219][626]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevelF1D89F0C48A6029FCE08EFB02F2A037C.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-20.14.28:246][626]LogFileHelpers: Saving map 'testLevel' took 0.140
+[2014.08.31-20.14.29:195][684]BlueprintLog: New page: Compile testLevel
+[2014.08.31-20.14.29:251][684]BlueprintEditorCompileResults: Info [4816.79] Compile of testLevel successful! [in 0 ms]
+[2014.08.31-20.14.31:402][831]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.14.31:404][831]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.14.31:458][831]LogPlayLevel: PIE:  Blueprint regeneration took 56 ms (1 blueprints)
+[2014.08.31-20.14.31:458][831]PIE: New page: PIE session: testLevel (31 Aug 2014 22:14:31)
+[2014.08.31-20.14.31:460][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002046s)
+[2014.08.31-20.14.31:461][831]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2014.08.31-20.14.31:461][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002888s)
+[2014.08.31-20.14.31:519][831]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.14.31:520][831]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.14.31:521][831]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.14.31
+[2014.08.31-20.14.31:522][831]LogWorld: Bringing up level for play took: 0.001081
+[2014.08.31-20.14.31:522][831]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.621
+[2014.08.31-20.14.50:115][710]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F72A0D60
+[2014.08.31-20.15.01:189][651]LogEditorViewport: Clicking on Actor (LMB): Blueprint_PlayerShip_DefaultPawn_C (Blueprint_PlayerShip_DefaultPawn)
+[2014.08.31-20.15.01:919][731]Cmd: DELETE
+[2014.08.31-20.15.01:919][731]Cmd: ACTOR DELETE
+[2014.08.31-20.15.01:920][731]LogEditorActor: Deleted Actor: Blueprint_PlayerShip_DefaultPawn_C
+[2014.08.31-20.15.01:934][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DFC4F420
+[2014.08.31-20.15.01:934][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F22FB740
+[2014.08.31-20.15.01:936][731]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2014.08.31-20.15.02:978][853]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.15.02:978][853]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.15.03:018][853]LogPlayLevel: PIE:  Blueprint regeneration took 40 ms (1 blueprints)
+[2014.08.31-20.15.03:018][853]PIE: New page: PIE session: testLevel (31 Aug 2014 22:15:03)
+[2014.08.31-20.15.03:020][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001809s)
+[2014.08.31-20.15.03:021][853]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2014.08.31-20.15.03:021][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002575s)
+[2014.08.31-20.15.03:046][853]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.15.03:047][853]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.15.03:048][853]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.15.03
+[2014.08.31-20.15.03:048][853]LogWorld: Bringing up level for play took: 0.000868
+[2014.08.31-20.15.03:049][853]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.906
+[2014.08.31-20.15.23:378][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E7D88860
+[2014.08.31-20.15.56:960][419]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-20.16.02:705][ 74]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-20.16.02:749][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_50) Not registered. Aborting.
+[2014.08.31-20.16.02:770][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F3A84860
+[2014.08.31-20.16.02:770][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CEE55E40
+[2014.08.31-20.16.02:779][ 74]BlueprintEditorCompileResults: Info [4910.30] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-20.16.03:156][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-20.16.03:180][115]LogSavePackage: Save=15.493951ms
+[2014.08.31-20.16.03:180][115]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Game64D9EEE04A69E80D4C46EAAC71FAB6FB.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-20.16.04:709][290]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.16.04:709][290]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.16.04:751][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F3C43BA0
+[2014.08.31-20.16.04:752][290]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2014.08.31-20.16.04:752][290]PIE: New page: PIE session: testLevel (31 Aug 2014 22:16:04)
+[2014.08.31-20.16.04:754][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001594s)
+[2014.08.31-20.16.04:754][290]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2014.08.31-20.16.04:755][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002289s)
+[2014.08.31-20.16.04:785][290]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.16.04:786][290]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.16.04:787][290]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.16.04
+[2014.08.31-20.16.04:787][290]LogWorld: Bringing up level for play took: 0.000853
+[2014.08.31-20.16.04:788][290]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.644
+[2014.08.31-20.16.14:146][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D5DE2A20
+[2014.08.31-20.17.05:392][ 12]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.17.05:392][ 12]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.17.05:427][ 12]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_51) Not registered. Aborting.
+[2014.08.31-20.17.05:445][ 12]LogPlayLevel: PIE:  Blueprint regeneration took 52 ms (1 blueprints)
+[2014.08.31-20.17.05:445][ 12]PIE: New page: PIE session: testLevel (31 Aug 2014 22:17:05)
+[2014.08.31-20.17.05:446][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001638s)
+[2014.08.31-20.17.05:447][ 12]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2014.08.31-20.17.05:447][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002342s)
+[2014.08.31-20.17.05:477][ 12]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.17.05:479][ 12]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.17.05:479][ 12]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.17.05
+[2014.08.31-20.17.05:480][ 12]LogWorld: Bringing up level for play took: 0.000877
+[2014.08.31-20.17.05:480][ 12]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.663
+[2014.08.31-20.17.30:222][159]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F3C42DE0
+[2014.08.31-20.17.40:751][993]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.17.40:793][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_52) Not registered. Aborting.
+[2014.08.31-20.17.40:793][993]LogPlayLevel: [PIE] Compiling Blueprint_PlayerShip_DefaultPawn before PIE...
+[2014.08.31-20.17.40:877][993]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.17.40:921][993]LogPlayLevel: PIE:  Blueprint regeneration took 169 ms (2 blueprints)
+[2014.08.31-20.17.40:921][993]PIE: New page: PIE session: testLevel (31 Aug 2014 22:17:40)
+[2014.08.31-20.17.40:923][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001661s)
+[2014.08.31-20.17.40:923][993]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2014.08.31-20.17.40:924][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002374s)
+[2014.08.31-20.17.40:953][993]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.17.40:954][993]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.17.40:955][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.17.40
+[2014.08.31-20.17.40:955][993]LogWorld: Bringing up level for play took: 0.000873
+[2014.08.31-20.17.40:956][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.813
+[2014.08.31-20.17.40:976][993]LogPropertyNode: Object is invalid Tags
+[2014.08.31-20.17.48:294][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_53) Not registered. Aborting.
+[2014.08.31-20.17.48:311][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D5DE1760
+[2014.08.31-20.17.55:626][148]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor18)
+[2014.08.31-20.18.00:733][515]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.18.00:733][515]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.18.00:775][515]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2014.08.31-20.18.00:775][515]PIE: New page: PIE session: testLevel (31 Aug 2014 22:18:00)
+[2014.08.31-20.18.00:777][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001740s)
+[2014.08.31-20.18.00:778][515]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2014.08.31-20.18.00:778][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002450s)
+[2014.08.31-20.18.00:830][515]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.18.00:831][515]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.18.00:832][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.18.00
+[2014.08.31-20.18.00:832][515]LogWorld: Bringing up level for play took: 0.000865
+[2014.08.31-20.18.00:833][515]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.69
+[2014.08.31-20.18.10:447][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E7D8A660
+[2014.08.31-20.18.20:545][137]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.18.20:545][137]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.18.20:588][137]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2014.08.31-20.18.20:588][137]PIE: New page: PIE session: testLevel (31 Aug 2014 22:18:20)
+[2014.08.31-20.18.20:590][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2014.08.31-20.18.20:591][137]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2014.08.31-20.18.20:591][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002858s)
+[2014.08.31-20.18.20:642][137]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.18.20:644][137]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.18.20:644][137]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.18.20
+[2014.08.31-20.18.20:645][137]LogWorld: Bringing up level for play took: 0.000888
+[2014.08.31-20.18.20:645][137]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.502
+[2014.08.31-20.18.23:094][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DBEBC540
+[2014.08.31-20.18.24:958][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_15)
+[2014.08.31-20.18.37:075][387]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.08.31-20.18.37:395][414]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.08.31-20.18.38:669][509]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.18.38:669][509]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.18.38:712][509]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2014.08.31-20.18.38:712][509]PIE: New page: PIE session: testLevel (31 Aug 2014 22:18:38)
+[2014.08.31-20.18.38:713][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
+[2014.08.31-20.18.38:714][509]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2014.08.31-20.18.38:714][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002579s)
+[2014.08.31-20.18.38:744][509]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.18.38:745][509]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.18.38:746][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.18.38
+[2014.08.31-20.18.38:746][509]LogWorld: Bringing up level for play took: 0.000949
+[2014.08.31-20.18.38:747][509]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.604
+[2014.08.31-20.18.45:707][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003882232200
+[2014.08.31-20.19.13:291][560]BlueprintLog: New page: Compile Blueprint_PlayerShip_DefaultPawn
+[2014.08.31-20.19.13:360][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_54) Not registered. Aborting.
+[2014.08.31-20.19.13:392][560]BlueprintEditorCompileResults: Info [5100.92] Compile of Blueprint_PlayerShip_DefaultPawn successful! [in 30 ms]
+[2014.08.31-20.19.13:995][584]LogSavePackage: Save=303.890198ms
+[2014.08.31-20.19.13:995][584]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_PlayerShip_DefaultPawnB121E0A34401E6592946FB96D6695516.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_PlayerShip_DefaultPawn.uasset'
+[2014.08.31-20.19.16:287][821]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.19.16:287][821]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.19.16:316][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_55) Not registered. Aborting.
+[2014.08.31-20.19.16:329][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E55099E0
+[2014.08.31-20.19.16:329][821]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2014.08.31-20.19.16:330][821]PIE: New page: PIE session: testLevel (31 Aug 2014 22:19:16)
+[2014.08.31-20.19.16:331][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001760s)
+[2014.08.31-20.19.16:332][821]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2014.08.31-20.19.16:332][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002484s)
+[2014.08.31-20.19.16:365][821]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.19.16:365][821]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.19.16:367][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.19.16
+[2014.08.31-20.19.16:367][821]LogWorld: Bringing up level for play took: 0.000906
+[2014.08.31-20.19.16:368][821]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.224
+[2014.08.31-20.19.18:826][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F3A85940
+[2014.08.31-20.19.20:177][257]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.19.20:177][257]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.19.20:217][257]LogPlayLevel: PIE:  Blueprint regeneration took 40 ms (1 blueprints)
+[2014.08.31-20.19.20:217][257]PIE: New page: PIE session: testLevel (31 Aug 2014 22:19:20)
+[2014.08.31-20.19.20:219][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001730s)
+[2014.08.31-20.19.20:220][257]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2014.08.31-20.19.20:220][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002435s)
+[2014.08.31-20.19.20:250][257]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.19.20:251][257]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.19.20:252][257]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.19.20
+[2014.08.31-20.19.20:252][257]LogWorld: Bringing up level for play took: 0.000901
+[2014.08.31-20.19.20:253][257]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.11
+[2014.08.31-20.19.21:978][457]LogSelection:Warning: PIE object was selected: "DefaultPawn /Game/Maps/UEDPIE_0_testLevel.testLevel:PersistentLevel.DefaultPawn_22"
+[2014.08.31-20.19.31:544][473]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_56) Not registered. Aborting.
+[2014.08.31-20.19.31:556][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F22FBBA0
+[2014.08.31-20.19.31:573][474]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DC601BC0
+[2014.08.31-20.19.37:089][ 42]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-20.19.57:793][996]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-20.19.57:834][996]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_57) Not registered. Aborting.
+[2014.08.31-20.19.57:859][996]BlueprintEditorCompileResults: Info [5145.39] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-20.19.58:153][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-20.19.58:172][ 22]LogSavePackage: Save=13.185001ms
+[2014.08.31-20.19.58:172][ 22]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Game67A113DF439BBE9B3872339E6FDC41BC.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-20.19.59:723][182]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.19.59:723][182]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.19.59:764][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E74C02C0
+[2014.08.31-20.19.59:765][182]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2014.08.31-20.19.59:765][182]PIE: New page: PIE session: testLevel (31 Aug 2014 22:19:59)
+[2014.08.31-20.19.59:767][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
+[2014.08.31-20.19.59:768][182]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2014.08.31-20.19.59:768][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002769s)
+[2014.08.31-20.19.59:795][182]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.19.59:797][182]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.19.59:797][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.19.59
+[2014.08.31-20.19.59:797][182]LogWorld: Bringing up level for play took: 0.000905
+[2014.08.31-20.19.59:798][182]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel -0.345
+[2014.08.31-20.20.01:746][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038F6879440
+[2014.08.31-20.20.05:138][720]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-20.20.08:076][ 30]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-20.20.08:106][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_58) Not registered. Aborting.
+[2014.08.31-20.20.08:124][ 30]BlueprintEditorCompileResults: Info [5155.67] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-20.20.08:882][104]BlueprintLog: New page: Compile Blueprint_game
+[2014.08.31-20.20.08:924][104]BlueprintEditorCompileResults: Info [5156.48] Compile of Blueprint_game successful! [in 0 ms]
+[2014.08.31-20.20.09:302][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprint_Game" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset" SILENT=true
+[2014.08.31-20.20.09:322][140]LogSavePackage: Save=12.565020ms
+[2014.08.31-20.20.09:322][140]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/Blueprint_Game8A53091D499E48428E2DBF91CA24E8DC.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Blueprints/Blueprint_Game.uasset'
+[2014.08.31-20.20.10:690][280]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.20.10:691][280]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.20.10:732][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E550A520
+[2014.08.31-20.20.10:733][280]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2014.08.31-20.20.10:733][280]PIE: New page: PIE session: testLevel (31 Aug 2014 22:20:10)
+[2014.08.31-20.20.10:735][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001936s)
+[2014.08.31-20.20.10:735][280]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2014.08.31-20.20.10:735][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002646s)
+[2014.08.31-20.20.10:767][280]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.20.10:768][280]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.20.10:769][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.20.10
+[2014.08.31-20.20.10:769][280]LogWorld: Bringing up level for play took: 0.000911
+[2014.08.31-20.20.10:770][280]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.627
+[2014.08.31-20.20.12:405][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038EB49FD80
+[2014.08.31-20.20.30:207][347]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.31-20.25.45:308][158]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor18)
+[2014.08.31-20.25.48:046][417]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.08.31-20.25.48:047][417]LogPlayLevel: [PIE] Compiling testLevel before PIE...
+[2014.08.31-20.25.48:079][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_59) Not registered. Aborting.
+[2014.08.31-20.25.48:093][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038E550A3E0
+[2014.08.31-20.25.48:095][417]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2014.08.31-20.25.48:095][417]PIE: New page: PIE session: testLevel (31 Aug 2014 22:25:48)
+[2014.08.31-20.25.48:097][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001834s)
+[2014.08.31-20.25.48:098][417]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2014.08.31-20.25.48:098][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/testLevel.testLevel to /Game/Maps/UEDPIE_0_testLevel.testLevel (0.002819s)
+[2014.08.31-20.25.48:149][417]LogWorld: Game class is 'GameMode'
+[2014.08.31-20.25.48:150][417]LogAIModule: Creating AISystem for world testLevel
+[2014.08.31-20.25.48:151][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_testLevel.testLevel up for play (max tick rate 0) at 2014.08.31-21.25.48
+[2014.08.31-20.25.48:151][417]LogWorld: Bringing up level for play took: 0.000938
+[2014.08.31-20.25.48:152][417]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_testLevel 0.009
+[2014.08.31-20.26.02:633][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038DFC4FD80
+[2014.08.31-20.26.10:910][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_15)
+[2014.08.31-20.26.13:505][225]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart1)
+[2014.08.31-20.26.15:413][450]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.08.31-20.26.22:639][210]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_60) Not registered. Aborting.
+[2014.08.31-20.26.22:709][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testLevel" FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.31-20.26.22:771][210]LogSavePackage: Save=37.129692ms
+[2014.08.31-20.26.22:771][210]LogSavePackage: Moving '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Saved/testLevel8A3CAE7E4A654CC7F3BEF8993F457A53.tmp' to '../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap'
+[2014.08.31-20.26.22:790][210]LogFileHelpers: Saving map 'testLevel' took 0.128
+[2014.08.31-20.26.23:916][296]Cmd: QUIT_EDITOR
+[2014.08.31-20.26.24:014][296]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.08.31-20.26.24:015][296]LogExit: Preparing to exit.
+[2014.08.31-20.26.24:887][296]LogExit: Editor shut down
+[2014.08.31-20.26.24:887][296]LogExit: Transaction tracking system shut down
+[2014.08.31-20.26.24:888][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038D8250A40
+[2014.08.31-20.26.24:888][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CCC85DA0
+[2014.08.31-20.26.24:906][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CFC74180
+[2014.08.31-20.26.24:906][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000038CFB03EC0
+[2014.08.31-20.26.24:906][296]LogExit: Object subsystem successfully closed.
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (163)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (162)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.08.31-20.26.24:933][296]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.08.31-20.26.24:934][296]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.08.31-20.26.24:935][296]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.08.31-20.26.25:012][296]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.08.31-20.26.25:209][296]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.08.31-20.26.25:210][296]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.08.31-20.26.25:311][296]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.08.31-20.26.25:311][296]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.08.31-20.26.25:313][296]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.08.31-20.26.25:313][296]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.08.31-20.26.25:313][296]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.08.31-20.26.25:313][296]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.08.31-20.26.25:313][296]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.08.31-20.26.25:314][296]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.08.31-20.26.25:314][296]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.08.31-20.26.25:314][296]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.08.31-20.26.25:314][296]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.08.31-20.26.25:314][296]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.08.31-20.26.25:315][296]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.08.31-20.26.25:415][296]LogDerivedDataCache: Shutdown
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.08.31-20.26.25:415][296]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.08.31-20.26.25:416][296]LogExit: Exiting.
+[2014.08.31-20.26.25:424][296]Log file closed, 08/31/14 21:26:25

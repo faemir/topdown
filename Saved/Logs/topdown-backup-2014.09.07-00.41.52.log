@@ -1,0 +1,83 @@
+Log file open, 09/01/14 22:15:39
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: ../../../../../../Users/dan/Documents/Unreal Projects/topdown/topdown.uproject
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.01-21.15.39:888][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.01-21.15.39:915][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.01-21.15.39:954][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.01-21.15.39:978][  0]LogInit: Object subsystem initialized
+[2014.09.01-21.15.39:989][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.01-21.15.39:989][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.01-21.15.40:002][  0]LogInit: Computer: CALAVERA
+[2014.09.01-21.15.40:002][  0]LogInit: User: dan
+[2014.09.01-21.15.40:003][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.01-21.15.40:003][  0]LogInit: High frequency timer resolution =3.222676 MHz
+[2014.09.01-21.15.40:003][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.09.01-21.15.40:003][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.01-21.15.40:003][  0]LogMemory: Process Physical Memory: 60.03 MB used, 60.14 MB peak
+[2014.09.01-21.15.40:003][  0]LogMemory: Process Virtual Memory: 36.03 MB used, 36.16 MB peak
+[2014.09.01-21.15.40:003][  0]LogMemory: Physical Memory: 3513.27 MB used, 8074.64 MB total
+[2014.09.01-21.15.40:003][  0]LogMemory: Virtual Memory: 268.74 MB used, 134217728.00 MB total
+[2014.09.01-21.15.40:028][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.09.01-21.15.40:028][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.09.01-21.15.40:108][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.09.01-21.15.40:108][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2014.09.01-21.15.40:109][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.01-21.15.40:109][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.01-21.15.40:109][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.01-21.15.40:114][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.01-21.15.40:123][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.01-21.15.40:424][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.01-21.15.42:210][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.01-21.15.42:725][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.01-21.15.42:768][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.01-21.15.42:891][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.01-21.15.42:891][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.01-21.15.42:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dan/Documents/Unreal Projects/topdown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.01-21.15.42:891][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.01-21.15.42:911][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.01-21.15.42:923][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.01-21.15.44:963][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.01-21.15.44:963][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.01-21.15.45:609][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.01-21.15.47:442][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1118_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_14b8_0///////STATCAT_Advanced////
+[2014.09.01-21.15.47:442][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.01-21.15.47:722][  0]SourceControl: Info Source control is disabled
+[2014.09.01-21.15.47:722][  0]SourceControl: Info Source control is disabled
+[2014.09.01-21.15.47:726][  0]SourceControl: Info Source control is disabled
+[2014.09.01-21.15.48:838][  0]BlueprintLog: New page: Editor Load
+[2014.09.01-21.15.48:944][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.01-21.15.48:944][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.01-21.15.49:176][  0]LogEngine: Initializing Engine...
+[2014.09.01-21.15.49:351][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster X-Fi Xtreme Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.01-21.15.49:368][  0]LogInit: FAudioDevice initialized.
+[2014.09.01-21.15.49:400][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.01-21.15.49:422][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/dan/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.01-21.15.49:428][  0]LogInit: Texture streaming: Enabled
+[2014.09.01-21.15.49:451][  0]LogInit: Transaction tracking system initialized
+[2014.09.01-21.15.49:607][  0]LogAssetRegistry: FAssetRegistry took 0.0127 seconds to start up
+[2014.09.01-21.15.50:001][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.01-21.15.50:249][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.01-21.15.50:357][  0]LogConsoleResponse:Display: 
+[2014.09.01-21.15.50:634][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b78_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_14b8_0///////STATCAT_Advanced////
+[2014.09.01-21.15.50:634][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_d60_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_14b8_0///////STATCAT_Advanced////
+[2014.09.01-21.15.50:634][  0]SourceControl: Info Source control is disabled
+[2014.09.01-21.15.50:635][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dan/Documents/Unreal Projects/topdown/Content/Maps/testLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.01-21.15.50:639][  0]LightingResults: New page: Lighting Build
+[2014.09.01-21.15.50:647][  0]MapCheck: New page: Map Check
+[2014.09.01-21.15.50:647][  0]LightingResults: New page: Lighting Build
+[2014.09.01-21.15.50:661][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F42E3587C0
+[2014.09.01-21.15.50:873][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.01-21.15.50:873][  0]LogAIModule: Creating AISystem for world testLevel
+[2014.09.01-21.15.50:874][  0]Cmd: MAP CHECKDEP
+[2014.09.01-21.15.50:874][  0]MapCheck: New page: testLevel - 1 Sep 2014 23:15:50
+[2014.09.01-21.15.50:917][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [42.637ms] ==========
+[2014.09.01-21.15.50:917][  0]LogFileHelpers: Loading map 'testLevel' took 0.282
+[2014.09.01-21.15.51:102][  0]LogColle
