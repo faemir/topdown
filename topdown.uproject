@@ -2,11 +2,5 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.7",
 	"Category": "",
-	"Description": "",
-	"Plugins": [
-		{
-			"Name": "GitSourceControl",
-			"Enabled": false
-		}
-	]
+	"Description": ""
 }
